@@ -4,6 +4,7 @@
   "name": "TripClick",
   "description": "This extension uses the TripAdviser API to determine trip options for locations found in web pages",
   "version": "1.0",
+  "default_locale": "en",
 
   "browser_action": {
     "default_icon": "icon.png",
