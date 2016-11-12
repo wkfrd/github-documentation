@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "TripClick",
+  "description": "This extension uses the TripAdviser API to determine trip options for locations found in web pages",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
